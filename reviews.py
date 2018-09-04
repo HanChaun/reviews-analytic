@@ -24,3 +24,11 @@ for d in data:
 print('Total', len(new), 'leave message length is less than 100')
 print(new[0])
 print(new[1])
+
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d) 
+print('Total', len(good))
+print(good[0])
