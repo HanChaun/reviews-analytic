@@ -15,3 +15,12 @@ for d in data:
 
 print('Average length', sum_len/len(data))
 
+
+new = []
+
+for d in data:
+	if len(d) < 100:
+		new.append(d)
+print('Total', len(new), 'leave message length is less than 100')
+print(new[0])
+print(new[1])
